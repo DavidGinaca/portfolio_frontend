@@ -1,12 +1,37 @@
 #fondoPortada{
- 
+background-size: cover; 
 background-image: url(../img/fondo_portada.jpg);
 background-repeat: no-repeat;
+height: 500px;
+position: relative;
 
 }
 
-h1{
+#nombreBanner{
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
     font-style: italic;  
+    text-decoration: underline;
 }
+
+.rounded-circle{
+
+    width: 200px;
+    height: auto;
+}
+
+#foto_perfil{
+
+    position: absolute;
+    top: 420px;
+}
+
+.titulos{
+
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+   font-style: italic;
+   color: #949292 ;
+   text-decoration: underline;
+}
+
+

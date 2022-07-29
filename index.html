@@ -18,36 +18,46 @@
     <body>
         
             
-        <div class="container" id="fondoPortada">
+        <div class="container fluid" id="fondoPortada">
             <div id="redeSociales" class="row">
                 
-                <div class="col-10" ><h1>David Emiliano Ginaca</h1></div>
+                <div id="nombreBanner"class="col-10" ><h1>David Emiliano Ginaca</h1></div>
 
-                <div class="col-2"><button type="button" onclick="window.location.href='https://www.facebook.com/dginaca','_blank'"><img src="img/face.png"> </button>            <!-- botones para coneccion a redes sociales, con imagen espesifica de cada red -->
-                
+                <div class="col-2"><button type="button" onclick="window.location.href='https://www.facebook.com/dginaca','_blank'"><img src="img/face.png"> </button>            <!-- botones para conectar a redes sociales,--> 
+                                                                                                                                                                                  <!--con imagen especifica de cada red -->  
                 <button type="button" onclick="window.location.href='https://www.instagram.com/davidginaca/','_blank'"> <img src="img/insta.png"> </button>
                 
                 <button type="button" onclick="window.location.href='https://www.linkedin.com/in/david-emiliano-ginaca-a59653232/','_blank'"> <img src="img/linkedin.png"> </button></div>
-            
-            </div>
-                            
-            <div>   
                 
-                <img src="img/perfil.jpg" class="rounded-circle img-thumbnail">
-                
+                <img src="img/perfil.jpg" class="rounded-circle d-block"  alt="foto_perfil" id="foto_perfil">    <!-- imagen de perfil -->
+                 
             </div>
             
         </div>    
 
-        <div>
-            <h1>David Emiliano Ginaca</h1>
-            <h3>Programador Full-Stack</h3>
-            <h6> repositorio:</h6> <a href="https://github.com/DavidGinaca?tab=repositories">github</a>
+        
+        <div class="container fluid">
+           
+            <br><br>
+
+            <div class="row">
+                <div class="col-md">
+
+                   <h1 class="titulos">David Emiliano Ginaca</h1>
+                   <h3 class="titulos">Programador Full-Stack</h3>
+                   <h6 style="display: inline;" class="titulos"> repositorio:</h6> <a href="https://github.com/DavidGinaca?tab=repositories">github</a>
+                
+                </div>
             
-            <img src="img/logo_fullstak.jpg"></div>
+            <div class="col-md">
+            
+                <img width="80px" class="float-end" src="img/fullstack.png" alt="fullstack"> </div> 
+            
+            </div>
+        </div>
     
-        <div>
-            <h1>Acerca de mi:</h1>
+        <div class="container fluid">
+            <h1 class="titulos">Acerca de mi:</h1>
             <p> Durante muchos años me dedique al sector gastronómico, donde obtuve experiencia en el trato con las personas y a trabajar en grupo, 
                 ya que en temporada solíamos ser hasta 25 empleados trabajando a la vez. Los últimos siete años alquile un fondo de comercio 
                 (lavadero de ropa), en este aprendí desde el manejo de proveedores, a como organiza el tiempo y el trabajo para volverme mas eficiente.                               
@@ -56,44 +66,44 @@
                 Me considero una persona sociable y pro-activa, me gustan los desafíos a la hora de trabajar en un proyecto, me apasiona aprender sobre lo que no se, para mejorar dia a dia.</p>
         </div>
 
-        <div>
-            <h1> Experiencia Laboral:</h1>
+        <div class="container fluid">
+            <h1 class="titulos"> Experiencia Laboral:</h1>
 
-            <h4> Lavadero de ropa "Chuavechito"</h4>
-            <h6>de febrero/2015, hasta enero/2022</h6>
+            <h4 class="titulos"> Lavadero de ropa "Chuavechito"</h4>
+            <h6 class="titulos">de febrero/2015, hasta enero/2022</h6>
             <p>Lavadero de ropa. Alquile el fondo de comercio durante siete años.
                Manejo completo del local, manejo de proveedores, atención al publico.</p><br>
             
-            <h4> Cajero en "Punta Marina"</h4>
-            <h6>de diciembre/2012, hasta noviembre/2014</h6>
+            <h4 class="titulos"> Cajero en "Punta Marina"</h4>
+            <h6 class="titulos">de diciembre/2012, hasta noviembre/2014</h6>
             <p>Principalmente trabajo de cajero en el restaurante punta marina, manejo de proveedores,
                cierre y apertura de caja, ademas realice tareas varias en el establecimiento como:  
                ayudante de cocina, bachero, mozo, metre.</p><br>
             
-            <h4> Herrería "Cuyo Mar" y trabajos varios</h4>
-            <h6>de enero/2005, hasta enero/2012</h6>
+            <h4 class="titulos"> Herrería "Cuyo Mar" y trabajos varios</h4>
+            <h6 class="titulos">de enero/2005, hasta enero/2012</h6>
             <p>Ayudante de herrería artesanal ubicada en el barrio las avenidas. Armado de rejas y portones, colocación en obra.
                Ademas, trabajos varios de peon de distintos oficios (techista, albañil, pintor) y trabajos varios en distintos locales
                gastronómicos.</p>       
         </div>
 
-        <div>
-            <h1>Educación</h1>
+        <div class="container fluid">
+            <h1 class="titulos">Educación</h1>
 
-            <h4> Ingeniero en sistemas</h4>
-            <h6>Facultad de ingeniería UNMdP</h6>
+            <h4 class="titulos"> Ingeniero en sistemas</h4>
+            <h6 class="titulos">Facultad de ingeniería UNMdP</h6>
             <p>Me encuentro cursando el primer año de la carrera en la facultad nacional de mar del plata.</p>
 
-            <h4> Auxiliar en Programación</h4>
-            <h6>Instituto Técnico Superior Teclab</h6>
+            <h4 class="titulos"> Auxiliar en Programación</h4>
+            <h6 class="titulos">Instituto Técnico Superior Teclab</h6>
             <p>Titulo intermedio de la carrera Técnico Superior en programación.</p>
 
-            <h4> Full-Stack Web Developer</h4>
-            <h6>Argentina Programa</h6>
+            <h4 class="titulos"> Full-Stack Web Developer</h4>
+            <h6 class="titulos">Argentina Programa</h6>
             <p>Cursando la segunda etapa del plan Argentina Programa.</p>
 
-            <h4> Programador Trainee</h4>
-            <h6>Argentina Programa</h6>
+            <h4 class="titulos"> Programador Trainee</h4>
+            <h6 class="titulos">Argentina Programa</h6>
             <p>Finalizada la primer etapa del plan Argentina Programa.</p>
         </div>           
     </body> 
