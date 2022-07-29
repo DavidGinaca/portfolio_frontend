@@ -1,0 +1,12 @@
+#fondoPortada{
+ 
+background-image: url(../img/fondo_portada.jpg);
+background-repeat: no-repeat;
+
+}
+
+h1{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;  
+}
